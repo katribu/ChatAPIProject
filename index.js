@@ -49,7 +49,7 @@ async function addPost(){
         body: JSON.stringify(newPost)
     })
 
-    getPosts()
+   await getPosts()
 }
 
 
